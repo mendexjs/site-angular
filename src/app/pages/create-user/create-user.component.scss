@@ -1,0 +1,31 @@
+
+
+.container {
+  width:50%;
+  height:50%;
+  margin-top: 5%;
+
+  mat-toolbar {
+    background-color: rgb(100, 141, 190);
+    padding: 10px 30px;
+    margin:0px;
+    color: white;
+  }
+
+  .form-group {
+    background-color: #ffffff;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    mat-form-field {
+      width: 100%;
+    }
+
+    button {
+      width: 80%;
+      margin: 15px auto;
+    }
+  }
+}
+
+

@@ -1,0 +1,34 @@
+.container{
+
+  width: 100%;
+  height: 100%;
+
+  .list{
+    width:50%;
+    height:50%;
+    margin: auto;
+    margin-top: 5%;
+    mat-toolbar {
+      background-color: rgb(100, 141, 190);
+      display: flex;
+      color: white;
+      padding: 0 20px;
+      span {
+        width: 85%;
+      }
+      button {
+        width: 15%;
+      }
+    }
+    table {
+      width: 100%;
+      font-weight: 500;
+    }
+  }
+}
+
+.ageMinor {
+  background-color: #dc96a0;
+}
+
+
