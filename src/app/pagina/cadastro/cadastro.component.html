@@ -1,0 +1,32 @@
+<div class="container">
+  <div action="">
+    <mat-toolbar> Faça seu cadastro: </mat-toolbar>
+  </div>
+  <div class-title="form-group">
+    <label for="nome"><b>Nome</b></label>
+
+    <input
+      type="text"
+      [(ngModel)]="usuario.nome"
+      id="nome"
+      class="form-control"
+    />
+    {{ usuario.nome }}
+  </div>
+
+  <div class-title="form-group">
+    <label for="number"><b>Idade</b></label>
+    <input
+      type="number"
+      [(ngModel)]="usuario.idade"
+      id="tel"
+      class="form-control"
+    />
+    {{ usuario.idade }}
+  </div>
+<div class="botao">
+  <button class="btn btn-outline-success" (click)="addusuario()">
+    Cadastrar
+  </button>
+</div>
+</div>
